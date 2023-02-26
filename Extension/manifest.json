@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark",
+  "description": "Bookmark related feature",
+  "version": "1.0",
+  "action": {
+    "default_popup": "bookmark.html"
+  },
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "permissions":[
+    "bookmarks"
+  ]
+}
